@@ -1,66 +1,95 @@
 // Défi 1
 
-  let a = 0;
-  while (a <= 20) {
-    if (a % 2 == 0) {
-      console.log(a);
-
-      
-    }
-    a++;
+let a = 0;
+while (a <= 20) {
+  if (a % 2 == 0) {
+    console.log(a);
+  }
+  a++;
 }
 
+// Défi 2
 
-  // Défi 2
-
- function multiplier(number) {
-    for (let b = 1; b <= 10; b++) {
-      console.log(number + " x " + b + " = " + (number * b));;
-    }
+function multiplier(number) {
+  for (let b = 1; b <= 10; b++) {
+    console.log(number + " x " + b + " = " + number * b);
+  }
 }
 
-multiplier(5)
-
+multiplier(5);
 
 
 // Défi 3
 
-let c = 0;
+for (let c = 1; c <= 21; c++) {
 
-while (c <= 20)  {
-   if (c % 3 == 0) {
-    console.log( c + ": Fizz" );
+  if ((c % 3 === 0) && (c % 5 === 0)) {
+    console.log(c + ": FizzBuzz");
   
-c++;
-
-} else if (c % 5 === 0) { 
-  console.log( c + ": Buzz");
+  } else if (c % 3 === 0) {
+    console.log(c + ": Fizz");
+  
+  } else if (c % 5 === 0) {
+    console.log(c + ": Buzz");
+  
+  }
 }
-c++;
-
-}
-
 
 // Défi 4
 
 function compteVoyelles(str) {
-
   let voyelles = "aeiou";
 
   let compte = 0;
 
-  for(let i = 0; i < str.length; i++) {
-    if(voyelles.includes(str[i])) {
+  str = str.toLowerCase();
+
+  for (let d = 0; d < str.length; d++) {
+    if (voyelles.includes(str[d])) {
       compte++;
+    }
   }
-
-}
-return compte;
-
+  return compte;
 }
 
-let str = "ola nuno";
-console.log(str.toLowerCase());
+let str = "BONJOUR tout le MONDE";
+
 console.log(compteVoyelles(str));
 
 
+// Défi 5 
+
+function pyramide(hauteur) { 
+  for (let f = 1; f <= hauteur; f++) {
+      ligne = "";
+      for (let g = 1; g <= hauteur - f; g++) {
+      ligne += " ";
+      }
+      for (let h = 1; h <= 2 * f - 1; h++) {
+      ligne += "*";
+      }
+      console.log(ligne);
+
+  }  
+}
+ pyramide(10);
+
+ 
+ 
+ // Défi 6
+
+     function guessingGame(correctNumber) {
+     let attempt = 0;
+     let guess = 0;
+ 
+     while (guess !== correctNumber) {
+         let numberToGuess = parseInt(prompt('Guess: '));
+         guess = numberToGuess;
+         attempt++;
+         console.log(`Attempt ${attempt}: You guessed ${guess}`);
+     }
+ 
+     console.log(`Congratulations, you found the number ${correctNumber} in ${attempt} attempts!`);
+ }
+ 
+ guessingGame(25);
