@@ -35,3 +35,23 @@ Reproduire grille avec flex
 28/04/2025 - Défis Express – Les variables JS, level 2 - Exercice 7
 
 28/04/2025 - Quel animal magique sommeille en toi ? - Exercice 8
+
+29/04/2025 - Défis Express - Boucles &amp Conditions en JavaScript - Exercice 9
+
+29/04/2025 - Défis Express – Boucles &amp Conditions en JavaScript level 3 - Exercice 10
+
+30/04/2025 - Le vendeur de burgers - Exercice 11
+
+05/05/2025 - Défis Express – Les tableaux en JavaScript - Exercice 12
+
+06/05/2025 - Le grimoire des ingrédients magiques - Exercice 13
+
+06/05/2025 - Défis Express – Les objets en JavaScript - Exercice 14
+
+06/05/2025 - Le créateur de fiches de films - Exercice 15
+
+06/05/2025 - Le grand quizz des animaux - Exercice 16
+
+06/05/2025 - Le Camp de l’Explorateur - Exercice 17
+
+07/05/2025 - Le Camp de l’Explorateur - Exercice 17 (Revision)
