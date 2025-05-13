@@ -55,3 +55,7 @@ Reproduire grille avec flex
 06/05/2025 - Le Camp de l’Explorateur - Exercice 17
 
 07/05/2025 - Le Camp de l’Explorateur - Exercice 17 (Revision)
+
+13/05/2025 - Créer, ajouter, supprimer et déplacer des éléments - Exercice 18
+
+13/05/2025 - La Machine à Smoothies de l'Afec - Exercice 19
