@@ -59,3 +59,7 @@ Reproduire grille avec flex
 13/05/2025 - Créer, ajouter, supprimer et déplacer des éléments - Exercice 18
 
 13/05/2025 - La Machine à Smoothies de l'Afec - Exercice 19
+
+14/05/2025 - Correction La Machine à Smoothies de l'Afec - Exercice 19
+
+14/05/2025 - Créer un accordéon type FAQ - Exercice 20

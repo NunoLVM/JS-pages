@@ -1,0 +1,28 @@
+.accordion {
+  font-family: Arial, sans-serif;
+}
+
+.accordion__title {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px 0;
+  cursor: pointer; 
+}
+
+.accordion__answer-bloc {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.accordion__bloc {
+  border-bottom: 1px solid #ccc; 
+  transition: border-bottom-width 0.3s ease; 
+}
+
+.accordion__bloc.active .caret-down {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
