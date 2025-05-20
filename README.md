@@ -63,3 +63,12 @@ Reproduire grille avec flex
 14/05/2025 - Correction La Machine à Smoothies de l'Afec - Exercice 19
 
 14/05/2025 - Créer un accordéon type FAQ - Exercice 20
+
+15/05/2025 - Correction Créer un accordéon type FAQ - Exercice 20
+
+19/05/2025 - Défis Express – L'asynchrone - Exercice 21
+
+19/05/2025 - Défis Express – Les callbacks - Exercice 22
+
+19/05/2025 - Défis Express – Créer un timer avec démarrer / pause / réinitialiser - Exercice 23
+
