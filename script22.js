@@ -57,7 +57,7 @@ poserQuestion("Veux-tu apprendre JavaScript ?", repondreOui, repondreNon);
 // 4) Créer une séquence animée
 
 // Liste de mots à afficher un par un
-let mots = ["Machine Head", "Rammstein", "SOAD"];
+let mots = ["Machine Head", "Rammstein", "SOAD", "Turnstile"];
 
 function animerMots(mots, callback) {
 

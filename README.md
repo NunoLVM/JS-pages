@@ -72,3 +72,4 @@ Reproduire grille avec flex
 
 19/05/2025 - Défis Express – Créer un timer avec démarrer / pause / réinitialiser - Exercice 23
 
+20/05/2025 - Devine le Pokémon mystère ! - Exercice 24
