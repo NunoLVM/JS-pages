@@ -73,3 +73,14 @@ Reproduire grille avec flex
 19/05/2025 - Défis Express – Créer un timer avec démarrer / pause / réinitialiser - Exercice 23
 
 20/05/2025 - Devine le Pokémon mystère ! - Exercice 24
+
+20/05/2025 - Qui est ce personnage de Rick and Morty ? - Exercice 25
+
+20/05/2025 - Qui est ce personnage de Rick and Morty ? Etape 2 - Exercice 26
+
+21/05/2025 - Qui est ce personnage de Rick and Morty ? Etape 2.1 - Exercice 27
+
+21/05/2025 - Gestionnaire de profils élèves - Exercice 28
+
+22/05/2025 - Gestionnaire de profils élèves - Exercice 28
+

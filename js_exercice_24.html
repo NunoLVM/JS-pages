@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   
+
   <title>Devine le Pokémon mystère !</title>
 </head>
 
@@ -14,38 +14,15 @@
 
 <body>
 
+  <h2>Devine le Pokémon mystère !</h2>
+  <p>Un Pokémon aléatoire va s’afficher à chaque clic.</p>
+
+  <button id="btn-pokemon" class="btn btn-warning">Afficher un Pokémon</button>
+  <div id="pokemon" class="mt-3"></div>
 
 
-<button id="btn-await" class="btn btn-secondary">Charger un post</button>
-<p id="resultat-await"></p>
-<script>
 
-  let bouton = document.getElementById("btn-await");
-  let zoneAffichage = document.getElementById("resultat-await");
-
-  async function chargerPost() {
-    zoneAffichage.textContent = "Chargement...";
-
-    try {
-      // On attend la réponse du serveur
-      let reponse = await fetch("https://jsonplaceholder.typicode.com/posts/1");
-
-      // On attend la conversion en JSON
-      let data = await reponse.json();
-
-      // On affiche le résultat
-      zoneAffichage.textContent = "Titre : " + data.title;
-    } catch (erreur) {
-      // En cas d’erreur (réseau, JSON mal formé, etc.)
-      zoneAffichage.textContent = "Erreur : " + erreur.message;
-    }
-  }
-
-  // Quand on clique, on déclenche la fonction
-  bouton.addEventListener("click", chargerPost);
-</script>
-
-  <script src="script24.js" defer></script>
+  <script src="script24.js" async></script>
 </body>
 
 </html>
